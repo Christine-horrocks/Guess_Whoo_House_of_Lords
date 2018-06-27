@@ -9,6 +9,8 @@
 import XCTest
 
 class Guess_Who_House_of_LordsUITests: XCTestCase {
+    
+    let app = XCUIApplication()
         
     override func setUp() {
         super.setUp()
@@ -28,9 +30,8 @@ class Guess_Who_House_of_LordsUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func allQuestionsCorrect() {
+        
     }
     
 }

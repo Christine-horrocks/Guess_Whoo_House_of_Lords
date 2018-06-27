@@ -14,6 +14,9 @@
 		FEE7C6C120E3DE7B007E0BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE7C6BF20E3DE7B007E0BD7 /* LaunchScreen.storyboard */; };
 		FEE7C6CC20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6CB20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift */; };
 		FEE7C6D720E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6D620E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift */; };
+		FEE7C6E520E3DEE8007E0BD7 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6E420E3DEE8007E0BD7 /* ResultVC.swift */; };
+		FEE7C6E720E3DF1B007E0BD7 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6E620E3DF1B007E0BD7 /* QuizVC.swift */; };
+		FEE7C6E920E3DF66007E0BD7 /* QuizCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6E820E3DF66007E0BD7 /* QuizCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FEE7C6D220E3DE7B007E0BD7 /* Guess Who House of LordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess Who House of LordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE7C6D620E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_Who_House_of_LordsUITests.swift; sourceTree = "<group>"; };
 		FEE7C6D820E3DE7B007E0BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE7C6E420E3DEE8007E0BD7 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		FEE7C6E620E3DF1B007E0BD7 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		FEE7C6E820E3DF66007E0BD7 /* QuizCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				FEE7C6B620E3DE79007E0BD7 /* AppDelegate.swift */,
+				FEE7C6E420E3DEE8007E0BD7 /* ResultVC.swift */,
+				FEE7C6E620E3DF1B007E0BD7 /* QuizVC.swift */,
+				FEE7C6E820E3DF66007E0BD7 /* QuizCVCell.swift */,
 				FEE7C6B820E3DE79007E0BD7 /* ViewController.swift */,
 				FEE7C6BA20E3DE79007E0BD7 /* Main.storyboard */,
 				FEE7C6BD20E3DE7B007E0BD7 /* Assets.xcassets */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE7C6B920E3DE79007E0BD7 /* ViewController.swift in Sources */,
+				FEE7C6E920E3DF66007E0BD7 /* QuizCVCell.swift in Sources */,
+				FEE7C6E720E3DF1B007E0BD7 /* QuizVC.swift in Sources */,
+				FEE7C6E520E3DEE8007E0BD7 /* ResultVC.swift in Sources */,
 				FEE7C6B720E3DE79007E0BD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
