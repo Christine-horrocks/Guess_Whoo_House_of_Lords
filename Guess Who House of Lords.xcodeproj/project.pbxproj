@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE7C6B720E3DE79007E0BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6B620E3DE79007E0BD7 /* AppDelegate.swift */; };
+		FEE7C6B920E3DE79007E0BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6B820E3DE79007E0BD7 /* ViewController.swift */; };
+		FEE7C6BC20E3DE79007E0BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE7C6BA20E3DE79007E0BD7 /* Main.storyboard */; };
+		FEE7C6BE20E3DE7B007E0BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE7C6BD20E3DE7B007E0BD7 /* Assets.xcassets */; };
+		FEE7C6C120E3DE7B007E0BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE7C6BF20E3DE7B007E0BD7 /* LaunchScreen.storyboard */; };
+		FEE7C6CC20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6CB20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift */; };
+		FEE7C6D720E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6D620E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEE7C6C820E3DE7B007E0BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE7C6AB20E3DE79007E0BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE7C6B220E3DE79007E0BD7;
+			remoteInfo = "Guess Who House of Lords";
+		};
+		FEE7C6D320E3DE7B007E0BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE7C6AB20E3DE79007E0BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE7C6B220E3DE79007E0BD7;
+			remoteInfo = "Guess Who House of Lords";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEE7C6B320E3DE79007E0BD7 /* Guess Who House of Lords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess Who House of Lords.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE7C6B620E3DE79007E0BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEE7C6B820E3DE79007E0BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEE7C6BB20E3DE79007E0BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEE7C6BD20E3DE7B007E0BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEE7C6C020E3DE7B007E0BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEE7C6C220E3DE7B007E0BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE7C6C720E3DE7B007E0BD7 /* Guess Who House of LordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess Who House of LordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE7C6CB20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_Who_House_of_LordsTests.swift; sourceTree = "<group>"; };
+		FEE7C6CD20E3DE7B007E0BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE7C6D220E3DE7B007E0BD7 /* Guess Who House of LordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess Who House of LordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE7C6D620E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_Who_House_of_LordsUITests.swift; sourceTree = "<group>"; };
+		FEE7C6D820E3DE7B007E0BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE7C6B020E3DE79007E0BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7C6C420E3DE7B007E0BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7C6CF20E3DE7B007E0BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE7C6AA20E3DE79007E0BD7 = {
+			isa = PBXGroup;
+			children = (
+				FEE7C6B520E3DE79007E0BD7 /* Guess Who House of Lords */,
+				FEE7C6CA20E3DE7B007E0BD7 /* Guess Who House of LordsTests */,
+				FEE7C6D520E3DE7B007E0BD7 /* Guess Who House of LordsUITests */,
+				FEE7C6B420E3DE79007E0BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE7C6B420E3DE79007E0BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7C6B320E3DE79007E0BD7 /* Guess Who House of Lords.app */,
+				FEE7C6C720E3DE7B007E0BD7 /* Guess Who House of LordsTests.xctest */,
+				FEE7C6D220E3DE7B007E0BD7 /* Guess Who House of LordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE7C6B520E3DE79007E0BD7 /* Guess Who House of Lords */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7C6B620E3DE79007E0BD7 /* AppDelegate.swift */,
+				FEE7C6B820E3DE79007E0BD7 /* ViewController.swift */,
+				FEE7C6BA20E3DE79007E0BD7 /* Main.storyboard */,
+				FEE7C6BD20E3DE7B007E0BD7 /* Assets.xcassets */,
+				FEE7C6BF20E3DE7B007E0BD7 /* LaunchScreen.storyboard */,
+				FEE7C6C220E3DE7B007E0BD7 /* Info.plist */,
+			);
+			path = "Guess Who House of Lords";
+			sourceTree = "<group>";
+		};
+		FEE7C6CA20E3DE7B007E0BD7 /* Guess Who House of LordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7C6CB20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift */,
+				FEE7C6CD20E3DE7B007E0BD7 /* Info.plist */,
+			);
+			path = "Guess Who House of LordsTests";
+			sourceTree = "<group>";
+		};
+		FEE7C6D520E3DE7B007E0BD7 /* Guess Who House of LordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7C6D620E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift */,
+				FEE7C6D820E3DE7B007E0BD7 /* Info.plist */,
+			);
+			path = "Guess Who House of LordsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE7C6B220E3DE79007E0BD7 /* Guess Who House of Lords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE7C6DB20E3DE7B007E0BD7 /* Build configuration list for PBXNativeTarget "Guess Who House of Lords" */;
+			buildPhases = (
+				FEE7C6AF20E3DE79007E0BD7 /* Sources */,
+				FEE7C6B020E3DE79007E0BD7 /* Frameworks */,
+				FEE7C6B120E3DE79007E0BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guess Who House of Lords";
+			productName = "Guess Who House of Lords";
+			productReference = FEE7C6B320E3DE79007E0BD7 /* Guess Who House of Lords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEE7C6C620E3DE7B007E0BD7 /* Guess Who House of LordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE7C6DE20E3DE7B007E0BD7 /* Build configuration list for PBXNativeTarget "Guess Who House of LordsTests" */;
+			buildPhases = (
+				FEE7C6C320E3DE7B007E0BD7 /* Sources */,
+				FEE7C6C420E3DE7B007E0BD7 /* Frameworks */,
+				FEE7C6C520E3DE7B007E0BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE7C6C920E3DE7B007E0BD7 /* PBXTargetDependency */,
+			);
+			name = "Guess Who House of LordsTests";
+			productName = "Guess Who House of LordsTests";
+			productReference = FEE7C6C720E3DE7B007E0BD7 /* Guess Who House of LordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEE7C6D120E3DE7B007E0BD7 /* Guess Who House of LordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE7C6E120E3DE7B007E0BD7 /* Build configuration list for PBXNativeTarget "Guess Who House of LordsUITests" */;
+			buildPhases = (
+				FEE7C6CE20E3DE7B007E0BD7 /* Sources */,
+				FEE7C6CF20E3DE7B007E0BD7 /* Frameworks */,
+				FEE7C6D020E3DE7B007E0BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE7C6D420E3DE7B007E0BD7 /* PBXTargetDependency */,
+			);
+			name = "Guess Who House of LordsUITests";
+			productName = "Guess Who House of LordsUITests";
+			productReference = FEE7C6D220E3DE7B007E0BD7 /* Guess Who House of LordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE7C6AB20E3DE79007E0BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "HORROCKS, Christine";
+				TargetAttributes = {
+					FEE7C6B220E3DE79007E0BD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FEE7C6C620E3DE7B007E0BD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FEE7C6B220E3DE79007E0BD7;
+					};
+					FEE7C6D120E3DE7B007E0BD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FEE7C6B220E3DE79007E0BD7;
+					};
+				};
+			};
+			buildConfigurationList = FEE7C6AE20E3DE79007E0BD7 /* Build configuration list for PBXProject "Guess Who House of Lords" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE7C6AA20E3DE79007E0BD7;
+			productRefGroup = FEE7C6B420E3DE79007E0BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE7C6B220E3DE79007E0BD7 /* Guess Who House of Lords */,
+				FEE7C6C620E3DE7B007E0BD7 /* Guess Who House of LordsTests */,
+				FEE7C6D120E3DE7B007E0BD7 /* Guess Who House of LordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE7C6B120E3DE79007E0BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE7C6C120E3DE7B007E0BD7 /* LaunchScreen.storyboard in Resources */,
+				FEE7C6BE20E3DE7B007E0BD7 /* Assets.xcassets in Resources */,
+				FEE7C6BC20E3DE79007E0BD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7C6C520E3DE7B007E0BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7C6D020E3DE7B007E0BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE7C6AF20E3DE79007E0BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE7C6B920E3DE79007E0BD7 /* ViewController.swift in Sources */,
+				FEE7C6B720E3DE79007E0BD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7C6C320E3DE7B007E0BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE7C6CC20E3DE7B007E0BD7 /* Guess_Who_House_of_LordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7C6CE20E3DE7B007E0BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE7C6D720E3DE7B007E0BD7 /* Guess_Who_House_of_LordsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEE7C6C920E3DE7B007E0BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE7C6B220E3DE79007E0BD7 /* Guess Who House of Lords */;
+			targetProxy = FEE7C6C820E3DE7B007E0BD7 /* PBXContainerItemProxy */;
+		};
+		FEE7C6D420E3DE7B007E0BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE7C6B220E3DE79007E0BD7 /* Guess Who House of Lords */;
+			targetProxy = FEE7C6D320E3DE7B007E0BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEE7C6BA20E3DE79007E0BD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE7C6BB20E3DE79007E0BD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEE7C6BF20E3DE7B007E0BD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE7C6C020E3DE7B007E0BD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE7C6D920E3DE7B007E0BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEE7C6DA20E3DE7B007E0BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE7C6DC20E3DE7B007E0BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X724L72U3D;
+				INFOPLIST_FILE = "Guess Who House of Lords/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine-horrocks.Guess-Who-House-of-Lords";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEE7C6DD20E3DE7B007E0BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X724L72U3D;
+				INFOPLIST_FILE = "Guess Who House of Lords/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine-horrocks.Guess-Who-House-of-Lords";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEE7C6DF20E3DE7B007E0BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X724L72U3D;
+				INFOPLIST_FILE = "Guess Who House of LordsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine-horrocks.Guess-Who-House-of-LordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guess Who House of Lords.app/Guess Who House of Lords";
+			};
+			name = Debug;
+		};
+		FEE7C6E020E3DE7B007E0BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X724L72U3D;
+				INFOPLIST_FILE = "Guess Who House of LordsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine-horrocks.Guess-Who-House-of-LordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guess Who House of Lords.app/Guess Who House of Lords";
+			};
+			name = Release;
+		};
+		FEE7C6E220E3DE7B007E0BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X724L72U3D;
+				INFOPLIST_FILE = "Guess Who House of LordsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine-horrocks.Guess-Who-House-of-LordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guess Who House of Lords";
+			};
+			name = Debug;
+		};
+		FEE7C6E320E3DE7B007E0BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X724L72U3D;
+				INFOPLIST_FILE = "Guess Who House of LordsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "christine-horrocks.Guess-Who-House-of-LordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guess Who House of Lords";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE7C6AE20E3DE79007E0BD7 /* Build configuration list for PBXProject "Guess Who House of Lords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE7C6D920E3DE7B007E0BD7 /* Debug */,
+				FEE7C6DA20E3DE7B007E0BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE7C6DB20E3DE7B007E0BD7 /* Build configuration list for PBXNativeTarget "Guess Who House of Lords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE7C6DC20E3DE7B007E0BD7 /* Debug */,
+				FEE7C6DD20E3DE7B007E0BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE7C6DE20E3DE7B007E0BD7 /* Build configuration list for PBXNativeTarget "Guess Who House of LordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE7C6DF20E3DE7B007E0BD7 /* Debug */,
+				FEE7C6E020E3DE7B007E0BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE7C6E120E3DE7B007E0BD7 /* Build configuration list for PBXNativeTarget "Guess Who House of LordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE7C6E220E3DE7B007E0BD7 /* Debug */,
+				FEE7C6E320E3DE7B007E0BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE7C6AB20E3DE79007E0BD7 /* Project object */;
+}
