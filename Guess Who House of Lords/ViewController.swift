@@ -22,8 +22,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @objc func btnGetStartedAction() {
+    @objc func btnGetStartedAction1() {
         let v=QuizVC()
+        self.navigationController?.pushViewController(v, animated: true)
+    }
+    
+    @objc func btnGetStartedAction2() {
+        let v=QuizVCHard()
         self.navigationController?.pushViewController(v, animated: true)
     }
     
@@ -34,11 +39,17 @@ class ViewController: UIViewController {
         lblTitle.widthAnchor.constraint(equalToConstant: 400).isActive=true
         lblTitle.heightAnchor.constraint(equalToConstant: 250).isActive=true
         
-        self.view.addSubview(btnGetStarted)
-        btnGetStarted.heightAnchor.constraint(equalToConstant: 100).isActive=true
-        btnGetStarted.widthAnchor.constraint(equalToConstant: 250).isActive=true
-        btnGetStarted.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
-        btnGetStarted.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 450).isActive=true
+        self.view.addSubview(btnGetStarted1)
+        btnGetStarted1.heightAnchor.constraint(equalToConstant: 100).isActive=true
+        btnGetStarted1.widthAnchor.constraint(equalToConstant: 250).isActive=true
+        btnGetStarted1.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
+        btnGetStarted1.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 400).isActive=true
+        
+        self.view.addSubview(btnGetStarted2)
+        btnGetStarted2.heightAnchor.constraint(equalToConstant: 100).isActive=true
+        btnGetStarted2.widthAnchor.constraint(equalToConstant: 250).isActive=true
+        btnGetStarted2.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
+        btnGetStarted2.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 550).isActive=true
         
         self.view.addSubview(startingImage)
         startingImage.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 50).isActive=true
@@ -59,16 +70,29 @@ class ViewController: UIViewController {
         return lbl
     }()
     
-    let btnGetStarted: UIButton = {
+    let btnGetStarted1: UIButton = {
         let btn=UIButton()
-        btn.setTitle("Commence", for: .normal)
+        btn.setTitle("Commence Easy", for: .normal)
+        btn.setTitleColor(UIColor.white, for: .normal)
+        btn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 26)
+        btn.backgroundColor=UIColor(red:0.70, green:0.00, blue:0.00, alpha:1.0)
+        btn.layer.cornerRadius=5
+        btn.layer.masksToBounds=true
+        btn.translatesAutoresizingMaskIntoConstraints=false
+        btn.addTarget(self, action: #selector(btnGetStartedAction1), for: .touchUpInside)
+        return btn
+    }()
+    
+    let btnGetStarted2: UIButton = {
+        let btn=UIButton()
+        btn.setTitle("Commence Hard", for: .normal)
         btn.setTitleColor(UIColor.white, for: .normal)
         btn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 26)
         btn.backgroundColor=UIColor(red:0.50, green:0.00, blue:0.00, alpha:1.0)
         btn.layer.cornerRadius=5
         btn.layer.masksToBounds=true
         btn.translatesAutoresizingMaskIntoConstraints=false
-        btn.addTarget(self, action: #selector(btnGetStartedAction), for: .touchUpInside)
+        btn.addTarget(self, action: #selector(btnGetStartedAction2), for: .touchUpInside)
         return btn
     }()
     

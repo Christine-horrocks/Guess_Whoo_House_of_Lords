@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE62DBBF214A9F90005C8525 /* QuizVCHard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62DBBE214A9F90005C8525 /* QuizVCHard.swift */; };
+		FE62DBC1214A9FF0005C8525 /* QuizHardCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62DBC0214A9FF0005C8525 /* QuizHardCVCell.swift */; };
 		FEB4A96920E4F5EA00DAE160 /* AllCorrectAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4A96820E4F5EA00DAE160 /* AllCorrectAnswers.swift */; };
 		FEB4A96B20E5352800DAE160 /* popUpCVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4A96A20E5352800DAE160 /* popUpCVViewController.swift */; };
 		FEE7C6B720E3DE79007E0BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7C6B620E3DE79007E0BD7 /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE62DBBE214A9F90005C8525 /* QuizVCHard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVCHard.swift; sourceTree = "<group>"; };
+		FE62DBC0214A9FF0005C8525 /* QuizHardCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHardCVCell.swift; sourceTree = "<group>"; };
 		FEB4A96820E4F5EA00DAE160 /* AllCorrectAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCorrectAnswers.swift; sourceTree = "<group>"; };
 		FEB4A96A20E5352800DAE160 /* popUpCVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpCVViewController.swift; sourceTree = "<group>"; };
 		FEE7C6B320E3DE79007E0BD7 /* Guess Who House of Lords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess Who House of Lords.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +119,8 @@
 				FEE7C6BD20E3DE7B007E0BD7 /* Assets.xcassets */,
 				FEE7C6BF20E3DE7B007E0BD7 /* LaunchScreen.storyboard */,
 				FEE7C6C220E3DE7B007E0BD7 /* Info.plist */,
+				FE62DBBE214A9F90005C8525 /* QuizVCHard.swift */,
+				FE62DBC0214A9FF0005C8525 /* QuizHardCVCell.swift */,
 			);
 			path = "Guess Who House of Lords";
 			sourceTree = "<group>";
@@ -268,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE62DBC1214A9FF0005C8525 /* QuizHardCVCell.swift in Sources */,
 				FEE7C6B920E3DE79007E0BD7 /* ViewController.swift in Sources */,
 				FEE7C6E920E3DF66007E0BD7 /* QuizCVCell.swift in Sources */,
 				FEB4A96B20E5352800DAE160 /* popUpCVViewController.swift in Sources */,
+				FE62DBBF214A9F90005C8525 /* QuizVCHard.swift in Sources */,
 				FEE7C6E720E3DF1B007E0BD7 /* QuizVC.swift in Sources */,
 				FEE7C6E520E3DEE8007E0BD7 /* ResultVC.swift in Sources */,
 				FEE7C6B720E3DE79007E0BD7 /* AppDelegate.swift in Sources */,

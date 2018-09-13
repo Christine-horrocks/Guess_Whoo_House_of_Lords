@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol QuizCVCellDelegate: class {
+protocol QuizHardCVCellDelegate: class {
     func didChooseAnswer(btnIndex: Int)
 }
 
-class QuizCVCell: UICollectionViewCell {
+class QuizHardCVCell: UICollectionViewCell {
     
     var btn1: UIButton!
     var btn2: UIButton!
@@ -20,9 +20,9 @@ class QuizCVCell: UICollectionViewCell {
     var btn4: UIButton!
     var btnsArray = [UIButton]()
     
-    weak var delegate: QuizCVCellDelegate?
+    weak var delegate: QuizHardCVCellDelegate?
     
-    var question: Question? {
+    var question: QuestionHard? {
         didSet {
             guard let unwrappedQue = question else { return }
             imgView.image = UIImage(named: unwrappedQue.imgName)
@@ -53,7 +53,6 @@ class QuizCVCell: UICollectionViewCell {
         if !unwrappedQue.isAnswered {
             delegate?.didChooseAnswer(btnIndex: sender.tag)
         }
-        
     }
     
     override func prepareForReuse() {
